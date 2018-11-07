@@ -7,61 +7,52 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script type="text/javascript" src="JS/jquery-qrcode-master/src/jquery.qrcode.js"></script>
   <script type="text/javascript" src="JS/jquery-qrcode-master/src/qrcode.js"></script>
-  <title>My Page</title>
+  <title>UC-SADA 公開データ</title>
 </head>
 <body>
-<h1>GitHubの新機能</h1>
-<p>docsフォルダでGitHub Pageが公開できる。</p>
-<figure>
-  <img src="images/animal1.jpg" alt="">
-</figure>
+<h1>UC-SADAの公開データ置き場</h1>
+<p>Gugen 2018 投稿作品のURL　と　QR-code</p>
+
 <div class="form-group">
-<label class="control-label col-sm-2">QRcode</label>
   <!-- QRコードスクリプト開始 -->
-  <div id="qrcode1"></div>
+  <a href="https://gugen.jp/entry2018/2018-086">busters</a>
+  <ul id="qrcode1"></ul>
   <script>
     jQuery('#qrcode1').qrcode(
       {width: 256, height: 256,
-      text	: "https://gugen.jp/entry2018/2018-086" //表示ページのURLを取得する
+      text	: "https://gugen.jp/entry2018/2018-086"
     });
   </script>
-   <a href="https://gugen.jp/entry2018/2018-086">busters</a>
   <br><br><br><br>
-
-  <div id="qrcode2"></div>
-  <script>
-    jQuery('#qrcode2').qrcode(
-      {width: 256, height: 256,
-      text	: "https://gugen.jp/entry2018/2018-082" //表示ページのURLを取得する
-    });
-  </script>
-  <a href="https://gugen.jp/entry2018/2018-082">Kick Upper</a>
- <br><br><br><br>
-
-
-  <div id="qrcode3"></div>
-  <script>
-    jQuery('#qrcode3').qrcode(
-      {width: 256, height: 256,
-      text	: "https://gugen.jp/entry2018/2018-043" //表示ページのURLを取得する
-    });
-  </script>
-  <a href="https://gugen.jp/entry2018/2018-043">わんちゃんカメラマン</a>
- <br><br><br><br>
-
-
-
-  <div id="qrcode4"></div>
+  <a href="https://gugen.jp/entry2018/2018-041">ConecO-mass</a>
+  <ul id="qrcode4"></ul>
   <script>
     jQuery('#qrcode4').qrcode(
       {width: 256, height: 256,
-      text	: "https://gugen.jp/entry2018/2018-081" //表示ページのURLを取得する
+      text	: "https://gugen.jp/entry2018/2018-081"
     });
   </script>
-  <a href="https://gugen.jp/entry2018/2018-041">ConecO-mass</a>
  <br><br><br><br>
+  <a href="https://gugen.jp/entry2018/2018-082">Kick Upper</a>
+  <ul id="qrcode2"></ul>
+  <script>
+    jQuery('#qrcode2').qrcode(
+      {width: 256, height: 256,
+      text	: "https://gugen.jp/entry2018/2018-082"
+    });
+  </script>
+ <br><br><br><br>
+  <a href="https://gugen.jp/entry2018/2018-043">わんちゃんカメラマン</a>
+  <ul id="qrcode3"></ul>
+  <script>
+    jQuery('#qrcode3').qrcode(
+      {width: 256, height: 256,
+      text	: "https://gugen.jp/entry2018/2018-043"
+    });
+  </script>
   <!-- QRコードスクリプトここまで -->
 </div>
 
